@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up </title>
+</head>
+<style>
+    body{
+        background-color: #414141;
+        font-family: monospace;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+    }
+    .card{
+        background-color: #aaaaaa;
+        text-align: center;
+        padding: 30px;
+        width: 300px;
+        border-radius: 8px;
+
+    }
+    h1{
+        color:#1f1f1f;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+
+    }
+    input{
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        
+        
+    }
+    button{
+        padding: 10px;
+        border-radius: 8px;
+        /* background-image: linear-gradient(rgb(55, 53, 62)
+      rgb(68, 68, 78)
+      rgb(113, 90, 90)
+      rgb(211, 218, 217)
+       ); */
+       background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    }
+    
+    /* tr{
+   margin-right: 15px;
+    } */
+    
+.name-input {
+  padding: 10px;
+  width: 120px;
+
+  
+}
+.name-input:hover{
+    background-color: #eddbc9;
+}
+ .name-input::placeholder{
+    color: #1f1f1f;
+ }
+.xyz::placeholder{
+    color: #1f1f1f;
+}
+.xyz:hover{
+    background-color: #eddbc9;
+}
+.hover:hover{
+    background-image: linear-gradient(#68a7e6);
+}
+</style>
+<body>
+    <div class="card">
+        <h1>Sign Up</h1>
+        <form>
+            <table>
+            <input type="email" name="email" placeholder="Email" class="xyz">
+            
+            <tr>
+            <td><input type="text" name="text" placeholder="First Name"class="name-input"></td>
+            <td><input type="text" name="text" placeholder="Last Name"class="name-input"></td>
+            </tr></table>
+            <input type="password" name="password" placeholder="Password"class="xyz">
+            
+            <button type="submit" class="hover">Sign up</button>
+        </form>
+    </div>
+</body>
+</html> 
